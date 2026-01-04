@@ -75,16 +75,16 @@ int main()
 	scanf ("%f",&w10);
 
 	
-	printf ("name of 1st student is %s , height is %f and weight is %f\n",a,h1,w1);
-	printf ("name of 2nd student is %s , height is %f and weight is %f\n",b,h2,w2);
-	printf ("name of 3rd student is %s , height is %f and weight is %f\n",c,h3,w3);
-	printf ("name of 4th student is %s , height is %f and weight is %f\n",d,h4,w3);
-	printf ("name of 5th student is %s , height is %f and weight is %f\n",e,h5,w5);
-	printf ("name of 6th student is %s , height is %f and weight is %f\n",f,h6,w6);
-	printf ("name of 7th student is %s , height is %f and weight is %f\n",g,h7,w7);
-	printf ("name of 8th student is %s , height is %f and weight is %f\n",h,h8,w8);
-	printf ("name of 9th student is %s , height is %f and weight is %f\n",i,h9,w9);
-	printf ("name of 10th student is %s , height is %f and weight is %f\n",j,h10,w10);
+	printf ("name of 1st student is %s , height is %.1f and weight is %.1f\n",a,h1,w1);
+	printf ("name of 2nd student is %s , height is %.1f and weight is %.1f\n",b,h2,w2);
+	printf ("name of 3rd student is %s , height is %.1f and weight is %.1f\n",c,h3,w3);
+	printf ("name of 4th student is %s , height is %.1f and weight is %.1f\n",d,h4,w3);
+	printf ("name of 5th student is %s , height is %.1f and weight is %.1f\n",e,h5,w5);
+	printf ("name of 6th student is %s , height is %.1f and weight is %.1f\n",f,h6,w6);
+	printf ("name of 7th student is %s , height is %.1f and weight is %.1f\n",g,h7,w7);
+	printf ("name of 8th student is %s , height is %.1f and weight is %.1f\n",h,h8,w8);
+	printf ("name of 9th student is %s , height is %.1f and weight is %.1f\n",i,h9,w9);
+	printf ("name of 10th student is %s , height is %.1f and weight is %.1f\n",j,h10,w10);
 
 	return 0;
 }
