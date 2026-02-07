@@ -1,12 +1,11 @@
 #include <stdio.h>
+int main ()
+{
+        float f,c;
+        printf("Temperature in Fahrenheit : ");
+        scanf ("%f",&f);
+        c = (f - 32) * 0.55;
+        printf ("%.1f°F in °C is %.2f\n",f,c);
+        return 0;
+}
 
-float f
-{
-    return ((f - 32.0) * 5.0 / 9.0);
-}
-int main()
-{
-    float f = 40;
-    printf("Temperature in Degree Celsius : %0.2f",
-    return 0;
-}
