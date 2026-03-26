@@ -11,13 +11,13 @@ void main()
 		root1 = (-b + sqrt (discriminant))/(2 *a);
 	        root2 = (-b-sqrt(discriminant))/(2*a);
 	        printf ("The roots are real and distant\n");
-	        printf ("root1 = %.2f\n root 2 = %.2f",root1,root2);
+	        printf ("root1 = %.2f\nroot 2 = %.2f\n",root1,root2);
         }
 	else if (discriminant == 0)
 	{
 		root1 = -b/(2*a);
 		printf ("The roots are real and equal\n");
-		printf ("root1 = %.2f\n root 2 = %.2f",root1,root2);
+		printf ("root1 = %.2f\nroot 2 = %.2f\n",root1,root2);
 	}
 	else
 	{
